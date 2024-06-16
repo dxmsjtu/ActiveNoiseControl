@@ -1,3 +1,31 @@
+Active Noise Control (ANC)
+Here are some sample codes to help you study active noise control.
+Please also refer to the GitHub wiki below for the principles of active noise control.
+
+Active Noise Control - GitHub wiki
+https://github.com/YosukeSugiura/ActiveNoiseControl/wiki
+
+Folder Overview
+Descriptions of each folder are provided. Download them using the green "Clone or Download" button in the upper right corner.
+
+00_data
+This folder contains data such as audio files and impulse responses used in each source code.
+
+01_feedforward
+This folder contains sample codes for feedforward control.
+Please download the "00_data" folder as well.
+
+02_feedback
+This folder contains sample codes for feedback control.
+Please download the "00_data" folder as well.
+
+Execution Environment
+The guaranteed execution environment is as follows:
+
+OS: Windows 10
+Language: MATLAB 2016
+Toolbox: None
+
 #  能動騒音制御 (Active Noise Control：ANC)
 
 能動騒音制御を勉強するためのサンプルコードをいくつか置いておきます．  

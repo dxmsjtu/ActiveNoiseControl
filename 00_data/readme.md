@@ -1,3 +1,46 @@
+Audio and Impulse Response Data
+Audio Data
+cleaner.wav
+
+Audio wav data of vacuum cleaner noise.
+Used in the feedforward control simulation.
+
+Sampling rate: 16 kHz
+Channels: Mono
+Bit depth: 16-bit
+harmonics.wav
+
+Audio wav data of machine noise + narrowband noise.
+Used in the feedback control simulation.
+
+Sampling rate: 16 kHz
+Channels: Mono
+Bit depth: 16-bit
+artificial_harmonic.wav
+
+Audio wav data artificially generated (white noise + harmonic signals) by noise_maker.m.
+Parameters can be changed in noise_maker.m.
+Can be used for debugging in both feedforward and feedback control.
+
+Sampling rate: 16 kHz
+Channels: Mono
+Bit depth: 16-bit
+Impulse Response Data
+impulse1.dat
+
+Impulse response of the primary path.
+
+impulse2.dat
+
+Impulse response of the secondary path.
+
+Noise Generation Source Code
+noise_maker.m
+
+Creates a wav file of (Gaussian white noise + multiple sine waves).
+Allows specification of the frequencies and amplitudes of the sine waves.
+Outputs artificial_harmonic.wav.
+
 #  音声・インパルス応答データ
 
 ## 音声データ
